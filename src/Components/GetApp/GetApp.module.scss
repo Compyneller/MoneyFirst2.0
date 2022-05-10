@@ -1,0 +1,133 @@
+.Container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2rem 0;
+h1{
+    margin-bottom: 1rem;
+}
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+      
+        .AppContent{
+            width: 50% !important;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            flex-direction: column;
+            p{
+                margin-bottom: 2rem;
+                line-height: 32px;
+                font-weight: lighter;
+            }
+            a{
+                display: inline-block;
+            }
+            .AppContentContainer{
+                width:70% ;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+            }
+
+        }
+        .ImageContainer{
+            min-height: 70vh;
+            width: 50%;
+            background: url('../../Assets/AnimatedMobile.svg');
+                    
+            margin: auto 0;
+                    background-size: contain;
+              background-repeat: no-repeat;
+                    
+                    // background-attachment: fixed;
+                    background-position-x: left !important;
+                    background-position-y: center !important;
+                    image-rendering: auto;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+              
+                /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+                image-rendering: -webkit-optimize-contrast;
+            
+        }
+        .qrImage{
+            width:30% ;
+            image-rendering: auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+            mix-blend-mode: darken;
+
+            /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+            image-rendering: -webkit-optimize-contrast;
+        }
+        
+
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .Container{
+        width: 100% !important;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+    h1{
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 100%;
+            flex-direction: column;
+    
+            .AppContent{
+                width: 90% !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                p{
+                    margin-bottom: 2rem;
+                    line-height: 32px;
+                    font-weight: lighter;
+                }
+                a{
+                    display: inline-block;
+                }
+    
+    
+            }
+            .ImageContainer{
+                width: 90%;
+                img{
+                    width: 100%;
+                    height: 50vh;
+                    mix-blend-mode: darken;
+                    object-fit: contain;
+                    image-rendering: auto;
+                    image-rendering: crisp-edges;
+                    image-rendering: pixelated;
+                  
+                    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+                    image-rendering: -webkit-optimize-contrast;
+                }
+            }
+            
+    
+        }
+    }
+    
+}

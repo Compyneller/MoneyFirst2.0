@@ -1,0 +1,40 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    margin: auto;
+    img{
+        width: 25%;
+        margin: 1rem 0;
+        image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+
+  /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+  image-rendering: -webkit-optimize-contrast;
+    }
+}
+@media screen and (max-width : 950px) {
+    .Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        img{
+            width: 55%;
+            margin: 1rem 0;
+            image-rendering: auto;
+      image-rendering: crisp-edges;
+      image-rendering: pixelated;
+    
+      /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+      image-rendering: -webkit-optimize-contrast;
+        }
+    }
+    
+}

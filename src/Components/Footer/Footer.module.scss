@@ -1,0 +1,123 @@
+.container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    min-height: 20vh;
+    width:80%;
+    margin: auto;
+    padding: 2rem 0;
+    
+    .row{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        .Columns{
+            width: 50%;
+
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: auto 0;
+            .row2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                margin: auto 0;
+                
+            }
+            .socialsIcons{
+                width: 100% !important;
+                justify-content: space-between;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            li{
+                list-style: none;
+                margin: 0 auto;
+                text-align: center;
+
+            }
+            h5{
+                font-size: 20px;
+                font-weight: bold;
+
+            }
+            p{
+                font-size: 15px ;
+                line-height: 25px;
+            }
+            a{
+                text-decoration: none;
+                width: 100%;
+                margin: 10px 0;
+                font-size: 15px;
+                img{
+                    width: 25%;
+                    mix-blend-mode: lighten;
+                    filter: invert(1);
+                    image-rendering: auto;
+                    image-rendering: crisp-edges;
+                    image-rendering: pixelated;
+                    
+                    /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+                    image-rendering: -webkit-optimize-contrast;
+                  
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width : 950px) {
+    .container{
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        min-height: 60vh;
+        width: 90%;
+        margin: auto;
+        padding: 3rem 0;
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            flex-direction: column;
+            .Columns{
+                width: 100%;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                margin-bottom: 2rem;
+                li{
+                    list-style: none;
+                    margin: 0 auto;
+                    text-align: center;
+    
+                }
+                h5{
+                    font-size: 20px;
+                    font-weight: bold;
+    
+                }
+                p{
+                    font-size: 15px ;
+                }
+                i{
+                    color: orangered;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    
+}

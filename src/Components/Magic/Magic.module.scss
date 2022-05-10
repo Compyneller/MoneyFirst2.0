@@ -1,0 +1,201 @@
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    .row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h1{
+            color: orangered;
+        }
+        .contentContainer{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            p{
+                line-height: 30px;
+                margin-bottom: 3rem;
+            }
+
+            .downloadButton{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: space-evenly;
+                
+                   
+                .contentButton{
+                    letter-spacing: 2px;
+                    color: orangered;
+                    outline: 2px solid orangered;
+                    padding: .5rem;
+                    position: relative;
+                    overflow: hidden;
+                    transition: color 1s;
+                    background: transparent;
+                    font-size: 20px;
+                    font-weight: bold;
+                    z-index: 3;
+                    display: flex;
+                    text-decoration: none;
+                    // color: white;
+                    align-items: center;
+                    display: flex;
+                    height: 5rem;
+                    border: none !important;
+                    .playStoreButton{
+                        display: flex;
+                        align-items: center;
+                        i{
+                            font-size: 50px;
+                            margin-right: 10px;                            
+
+                        }
+                        .playText{
+                            line-height: 30px;
+                            
+                            p{
+                                font-size: 12px;
+                                margin: auto 0;
+                                
+                            }
+                            h5{
+                                margin: auto 0;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    
+      
+                    &:hover{
+                        color: white;
+                        z-index: 3;
+      
+                    }
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: -50px;
+                        width: 0;
+                        height: 100%;
+                        background: orangered;
+                        transform: skewX(35deg);
+                        z-index: -1;
+                        transition: width 1s;
+                        margin: auto 0;
+                    }
+                    &:hover::before{
+                        width: 150%;
+                    }
+                }
+            }
+        }
+        .progress{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .skills{
+                width: 100%;
+                max-width: 600px;
+                padding: 0 20px;
+                .skillName{
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: orangered;
+                    text-transform: uppercase;
+                    margin: 20px 0;
+
+
+                }
+                .skillBar{
+                    height: 14px;
+                    background-color: #282828;
+                    border-radius: 20px;
+
+                }
+                .skillPer{
+                    height: 20px;
+                    background-color: orangered;
+                    border-radius: 20px;
+                    position: relative;
+                    animation: fillBars 2.5s linear;
+                    color: black;
+                    font-weight: bold;
+
+                    &::before{
+                        content: attr(per);
+                        position: absolute;
+                        padding: 4px 6px;
+                        background-color: white;
+                        border-radius: 20px;
+                        font-size: 12px;
+                        top: -35px;
+                        z-index: 2;
+                        right: 0;
+                        transform: translateX(50%);
+                    }
+                    &::after{
+                        content:  "";
+                        position: absolute;
+                        width: 10px;
+                        height: 10px;
+                        background-color: white;
+                        top: -20px;
+                        z-index: 1;
+                        right: 0;
+                        transform: translateX(50%) rotate(45deg);
+                        border-radius: 2px;
+
+                    }
+                }
+                @keyframes fillBars {
+                    from{
+                        width: 0;
+                    }to{
+                        width: 100%;
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
+@media screen and (max-width : 1000px) {
+    .row{
+        flex-direction: column;
+        .downloadButton{
+            flex-direction: column;
+
+            .contentButton{
+                margin: 1rem 0;
+            }
+        }
+
+        .contentContainer, .progress{
+            width: 100% !important;
+            margin: 2rem 0;
+
+
+        }
+       
+    }
+    
+    
+    
+}
+@media screen  and (max-width : 631px){
+    .progress{
+        flex-direction: column;
+    }
+    
+}

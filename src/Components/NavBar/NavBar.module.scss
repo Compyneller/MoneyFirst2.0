@@ -1,0 +1,59 @@
+.NavBarNav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: -1;
+    .navBarContent{
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        justify-content: start;
+        display: flex;
+
+        img{
+            height: 7vh;
+            image-rendering: auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+
+            /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+            image-rendering: -webkit-optimize-contrast;
+        }
+        .logo{
+            height: 5vh;
+            width: 15rem;
+            margin-left: 1rem;
+            image-rendering: auto;
+            image-rendering: crisp-edges;
+            image-rendering: pixelated;
+          
+            /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+            image-rendering: -webkit-optimize-contrast;
+            z-index: 100;
+            filter: invert(1);
+            
+        }
+        .logo path{
+            stroke-dasharray: 560;
+            stroke-dasharray: 572;
+            animation: line-animation 20s ease infinite;
+
+        }
+        @keyframes line-animation {
+            0%{
+                stroke-dasharray: 572;
+            }
+            50%{
+                stroke-dasharray: 100;
+            }
+            100%{
+                stroke-dasharray: 572;
+            }
+
+            
+        }
+    }
+}

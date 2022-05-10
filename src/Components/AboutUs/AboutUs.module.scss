@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.container{
+    width: 80%;
+    height: 100%;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        .AboutContent{
+            width: 50%;
+            h3{
+                font-family: 'Caveat', cursive;
+                font-size: 35px;
+                transform: rotate(-5deg);
+                color: orangered;
+                letter-spacing: 2px;
+                
+            }
+            p{
+                line-height: 30px;
+            }
+        }
+        .ImageContainer{
+            width: 50%;
+            height: 100%;
+            // display: flex;
+            
+            img{
+                height: 70vh;
+                object-fit: contain;
+                margin: 0 auto;
+                image-rendering: auto;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+              
+                /* Safari seems to support, but seems deprecated and does the same thing as the others. */
+                image-rendering: -webkit-optimize-contrast;
+                mix-blend-mode: darken !important;
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 1000px) {
+.row{
+    flex-direction: column;
+    .AboutContent{
+        width: 100% !important;
+        
+
+    }
+    .ImageContainer{
+        width: 100% !important;
+        img{
+            height: 50vh !important;
+        }
+    }
+}
+    
+}

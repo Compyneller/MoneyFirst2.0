@@ -1,0 +1,89 @@
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    h1{
+        margin-bottom: 3rem;
+    }
+    .Inputs{
+        display: flex;
+        max-width: 30rem;
+        // border: 1px solid white;
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+
+        input{
+            width: 70%;
+            height: 3.9rem;
+            background: black;
+            color: white;
+            // border: 1px solid white;
+            border: none;
+            font-size: 18px;
+            padding: 0 1rem;
+            outline:  1px solid white;
+
+            
+        }.contentButton{
+            letter-spacing: 2px;
+        //   color: orangered;
+        //   outline: 2px solid white;
+          border: none;
+          position: relative;
+          overflow: hidden;
+          transition: color 1s;
+          background: transparent;
+          justify-content: center;
+          font-size: 15px;
+          font-weight: bold;
+          z-index: 3;
+          display: flex;
+          align-items: center;
+          outline: none;
+            border: 1px solid white;
+            width: 30%;
+            height: 4rem;
+            color: white;
+          
+          
+          
+          &:hover{
+              color: black;
+              z-index: 3;
+              font-weight: bold;
+
+          }
+          &::before{
+              content: '';
+              position: absolute;
+              top: 0;
+              left: -50px;
+              width: 0;
+              height: 100%;
+              background: white;
+              transform: skewX(35deg);
+              z-index: -1;
+              transition: width 1s;
+              margin: auto 0;
+            }
+          &:hover::before{
+              width: 250%;
+            }
+        }
+     
+    }
+}
+@media screen and (max-width : 950px) {
+    .contentButton{
+        font-size: 12px !important;
+    }
+    
+}

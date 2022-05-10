@@ -1,0 +1,53 @@
+.Image{
+    min-height: 80vh;
+    width: 100%;
+    background:url('../../Assets/AnimatedContactUs.svg') ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 2rem 0;
+    img{
+        width: 5%;
+        margin-right: 1rem ;
+    }
+    a{
+        text-decoration: none;
+        margin: auto 0;
+        color: black;
+    }
+}
+
+@media screen and (max-width : 950px) {
+    .Image{
+        background: none !important;
+        min-height: 0 !important;
+    
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        margin: 2rem 0;
+        text-align: center;
+        img{
+            width: 5%;
+            margin-right: 1rem ;
+        }
+        a{
+            text-decoration: none;
+            margin: auto 0;
+            color: black;
+        }
+    }
+    
+}
