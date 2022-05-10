@@ -1,9 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Refund = () => {
   return (
     <div style={{ width: "50%", margin: "0 auto", padding: "5rem 0" }}>
-      <h1>REFUND POLICY,CONCERNS AND COMPLAINT</h1>
+      <div className="d-flex">
+        <Link to="/">
+          <img
+            src="https://img.icons8.com/ios-glyphs/2x/home-page.png"
+            alt=""
+          />
+        </Link>
+        <h1 className="my-auto">REFUND POLICY,CONCERNS AND COMPLAINT</h1>
+      </div>
+      <br />
+      <br />
+
       <h5>8.1</h5>
       <p>
         We will refund your money within three business days of your request to

@@ -1,9 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PrivacyPolicy = () => {
   return (
     <div style={{ width: "50%", margin: "0 auto", padding: "5rem 0" }}>
-      <h1>PRIVACY POLICY</h1>
+      <div className="d-flex">
+        <Link to="/">
+          <img
+            src="https://img.icons8.com/ios-glyphs/2x/home-page.png"
+            alt=""
+          />
+        </Link>
+        <h1 className="my-auto">PRIVACY POLICY</h1>
+      </div>
+      <br />
+      <br />
+
       <h5>1.Introduction</h5>
       <p>
         Business It and services Pty Ltd T/as Moneyfirst , Add 28 harriet lane ,

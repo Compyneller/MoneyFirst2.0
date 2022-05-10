@@ -1,9 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TermAndCondition = () => {
   return (
     <div style={{ width: "50%", margin: "0 auto", padding: "5rem 0" }}>
-      <h1>TERMS & CONDITIONS</h1>
+      <div className="d-flex">
+        <Link to="/">
+          <img
+            src="https://img.icons8.com/ios-glyphs/2x/home-page.png"
+            alt=""
+          />
+        </Link>
+        <h1 className="my-auto">TERMS & CONDITIONS</h1>
+      </div>
+      <br />
+      <br />
       <h2>1. Contract Formation and Overview</h2>
       <h5>1.1</h5>
       <p>
