@@ -41,7 +41,10 @@ const Footer = () => {
                 alt=""
               />
             </a>
-            <a target="_blank" href="https://www.instagram.com/moneyfirst_au/">
+            <a
+              target="_blank"
+              href="https://instagram.com/moneyfirstau?igshid=YmMyMTA2M2Y="
+            >
               <img
                 src="https://img.icons8.com/ios/2x/instagram-new--v3.gif"
                 alt=""
