@@ -54,7 +54,7 @@ const Why = () => {
           <p>
             Moneyfirst is registered & regulated with{" "}
             <a href="https://www.austrac.gov.au/">AUSTRAC</a> to provide you
-            with a healthy & safe networking system. Now it's just Monefirst,
+            with a healthy & safe networking system. Now it's just Moneyfirst,
             Guardianship & You!
           </p>
         </div>

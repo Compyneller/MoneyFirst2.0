@@ -24,15 +24,15 @@ const AboutUs = () => {
           <h1>ABOUT US</h1>
           <p>
             Moneyfirst has developed a team of industrious people to protect and
-            serve our customers a convenient & fast platform to remit money
-            overseas easily. Moneyfirst was founded in 2019 in Australia, and
+            serve our customers a convenient & fast platform to send INR(D)
+            worldwide easily. Moneyfirst was founded in 2019 in Australia, and
             since then our community is expeditiously growing with trust &
             notable services. Sending money abroad is deceptively expensive,
             thanks to the hidden charges we’ve all been forced to pay. The banks
             claim “free money transfers” and “0% commission” and it sounds like
             money is already flowing freely, but far from us. We know this is
             pure propaganda! Moneyfirst removes all the wrongness, letting
-            people Send INR(D) worldwide at the lowest possible true cost. Using
+            people send INR(D) worldwide at the lowest possible true cost. Using
             only real exchange rates and no-extra-hidden charges. It's time to
             turn your heads high and join hands with Moneyfirst to begin the
             unforgettable journey for our loved ones. Headaches averted, and a

@@ -42,8 +42,8 @@ const OurServices = () => {
           </div>
           <h3>PLATFORMS</h3>
           <p>
-            Get the Moneyfirst services on iOS, Android & Web applications.
-            Download the app now!
+            Get the Moneyfirst services on iOS & Android applications. Download
+            the app now!
           </p>
         </div>
         <div className={style.Cards}>
@@ -55,8 +55,8 @@ const OurServices = () => {
           </div>
           <h3>INSTANT TRANSFER</h3>
           <p>
-            Moneyfirst covers all the transactions in just a few seconds. Send &
-            receive the money within a blink of an eye!
+            Moneyfirst covers all the transactions in just a few seconds. Send
+            INR(D) worldwide within a blink of an eye!
           </p>
         </div>
         <div className={style.Cards}>
