@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import AOS from "aos";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
-import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import Refund from "./Pages/Refund";
 import TermAndCondition from "./Pages/TermAndCondition";
