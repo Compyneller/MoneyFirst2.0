@@ -199,6 +199,24 @@ const PrivacyPolicy = () => {
         may be obtained from using them.
       </p>
       <br />
+      <h5>Deleting Personal Data</h5>
+      <p>
+        If you no longer want us to use your information or data to provide the
+        MoneyFirst Services to you, you can request that we remove your personal
+        information and delete your account, write us at:{" "}
+        <a href="mailto:support@moneyfirst.com.au">support@moneyfirst.com.au</a>{" "}
+        . The admin will erase your personal, transactional, and other related
+        information to you and your account permanently.
+        <br />
+        <br />
+        We generally save your personal information or other personal data for
+        as long as is necessary for the implementation of the contract between
+        you and us and to comply with our legal responsibilities. If any of your
+        personal, transactional, or other information or data is deleted after
+        you request to admin through email, it can never be retrieved on your
+        request in the future.
+      </p>
+      <br />
       <h2>MONEYFIRST CONTACT</h2>
       <br />
       <p>
