@@ -64,25 +64,25 @@ const TermAndCondition = () => {
         hereunder.
       </p>
       <p>
-        <strong>"Alerts"</strong> means advice, caution or notice relating to
+        <strong>"Alerts"</strong> means advice, caution, or notice relating to
         the Service issued or to be issued by us to you through a text message
         or an email.
       </p>
       <p>
         <strong>"Beneficiary/Receiver"</strong> refers to the person or bank
-        account designated by you to receive money through the Service.
+        account designated by you to receive INR(D) through the Service.
       </p>
       <p>
         <strong>"Business Day"</strong> means any day that is not a Saturday,
-        Sunday, bank or public holiday in the locality/country where the Visitor
-        is located and/or the Receiver receives the payment.
+        Sunday, bank, or public holiday in the locality/country where the
+        Visitor is located and/or the Receiver receives the payment.
       </p>
       <p>
         <strong>"Customer/User"</strong> means a registered user of the Service.
       </p>
       <p>
         <strong>"Customer Account"</strong> means the account opened by the
-        Customer on the Application in accordance with the Terms and Conditions.
+        Customer on the Application by the Terms and Conditions.
       </p>
       <p>
         <strong>"INR(D) Transfer Funds"</strong> means all the INR(D) collected
@@ -117,18 +117,19 @@ const TermAndCondition = () => {
       </p>
       <p>
         <strong>"Supervisory Authority"</strong> means Consumer Financial
-        Protection Bureau, pursuant to the enactment of Dodd-Frank Wall Street
-        Reform and Consumer Protection Act and any other applicable regulating
-        authority.
+        Protection Bureau, according to the enactment of the Dodd-Frank Wall
+        Street Reform and Consumer Protection Act and any other applicable
+        regulating authority.
       </p>
       <p>
         <strong>"Transaction"</strong> means a specific instruction made by the
-        Customer/User to send money using the Service to a Beneficiary/Receiver.
+        Customer/User to send INR(D) using the Service to a
+        Beneficiary/Receiver.
       </p>
       <p>
-        <strong>"Transaction Amount"</strong> means the amount of money that the
-        Customer/User wishes to send to the Beneficiary/Receiver, excluding any
-        applicable fees.
+        <strong>"Transaction Amount"</strong> means the amount of INR(D) that
+        the Customer/User wishes to send to the Beneficiary/Receiver, excluding
+        any applicable fees.
       </p>
       <p>
         <strong>"Visitor"</strong> means any person, who accesses or visits the
@@ -136,8 +137,9 @@ const TermAndCondition = () => {
         includes any Customer/User.
       </p>
       <p>
-        <strong>"Application"</strong> means www.moneyfirst.com.au domains,
-        subdomains or subdirectories including access by computer mobile or
+        <strong>"Application"</strong> means{" "}
+        <a href="www.moneyfirst.com.au">www.moneyfirst.com.au</a> domains,
+        subdomains, or subdirectories including access by computer mobile or
         mobile application.
       </p>
       <h5 style={{ fontWeight: "bold" }}>3. Registration</h5>
