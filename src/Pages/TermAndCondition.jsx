@@ -15,17 +15,18 @@ const TermAndCondition = () => {
       </div>
       <br />
       <br />
-      <h2>1. Contract Formation and Overview</h2>
+      <h5 style={{ fontWeight: "bold" }}>1. Contract Formation and Overview</h5>
       <h5>1.1</h5>
       <p>
-        Business IT and services Pty Ltd T/as Moneyfirst ("Moneyfirst," "we,"
-        "us," or "our") is a Australian corporation with its headquarters at Add
-        28 harriet lane Oxenford QLD 4210 , Australia. These terms and
+        Business IT and services Pvt Ltd T/as Moneyfirst ("Moneyfirst," "we,"
+        "us," or "our") is an Australian corporation with its headquarters at
+        Add 28 Harriet lane Oxenford QLD 4210, Australia. These terms and
         conditions (the "Terms and Conditions") govern the terms under which
         you, as defined in Paragraph 1.2, may access this Application and use
         the services associated with it (the "Service"). By accessing,
-        registering and using the Service, you agree to be bound by these Terms
-        and Conditions.
+        registering, and using the Service, you agree to be bound by these Terms
+        and Conditions. The terms and conditions were last updated on May 20,
+        2022.
       </p>
       <h5>1.2</h5>
       <p>
@@ -42,10 +43,11 @@ const TermAndCondition = () => {
       </p>
       <h5>1.4</h5>
       <p>
-        The Service was created to assist Customers with sending money to and
-        receiving money from family and friends around the world. For security
-        reasons, we recommend that you only send money to people you know
-        personally. You must not use the Service to send money to strangers.
+        The Service was created to assist Customers with sending INR(D)
+        worldwide. For security reasons, we recommend that you only send INR(D)
+        to people you know personally. You must not use the Service to send
+        INR(D) to strangers. Moneyfirst will not take any responsibility in this
+        case 1.4.
       </p>
       <h5>1.5</h5>
       <p>
@@ -55,86 +57,90 @@ const TermAndCondition = () => {
         with our Privacy Policy. Along with these Terms and Conditions, you
         accept and agree to be bound by the Privacy Policy.
       </p>
-      <h2>2. Definations</h2>
+      <h5 style={{ fontWeight: "bold" }}>2. Definations</h5>
       <p>
         In these Terms and Conditions, unless the context otherwise requires,
         the following words and phrases shall have the meaning assigned to them
         hereunder.
       </p>
       <p>
-        "Alerts" means advice, caution or notice relating to the Service issued
-        or to be issued by us to you through a text message or an email.
+        <strong>"Alerts"</strong> means advice, caution or notice relating to
+        the Service issued or to be issued by us to you through a text message
+        or an email.
       </p>
       <p>
-        "Beneficiary/Receiver" refers to the person or bank account designated
-        by you to receive money through the Service.
+        <strong>"Beneficiary/Receiver"</strong> refers to the person or bank
+        account designated by you to receive money through the Service.
       </p>
       <p>
-        "Business Day" means any day that is not a Saturday, Sunday, bank or
-        public holiday in the locality/country where the Visitor is located
-        and/or the Receiver receives the payment.
-      </p>
-      <p>"Customer/User" means a registered user of the Service.</p>
-      <p>
-        "Customer Account" means the account opened by the Customer on the
-        Application in accordance with the Terms and Conditions.
+        <strong>"Business Day"</strong> means any day that is not a Saturday,
+        Sunday, bank or public holiday in the locality/country where the Visitor
+        is located and/or the Receiver receives the payment.
       </p>
       <p>
-        "Money Transfer Funds" means all monies received or collected from or on
-        behalf of the Customer in respect of all Transactions initiated by the
-        Customer, including, but not limited to, Transaction Amount and all fees
-        and charges.
+        <strong>"Customer/User"</strong> means a registered user of the Service.
       </p>
       <p>
-        "Payment Account" means the bank account details of the Customer
-        provided to Moneyfirst at the time of registration for the Service, to
-        be used to transfer the Transaction Amount to the Beneficiary and to pay
-        the applicable service charges for the use of Service.
+        <strong>"Customer Account"</strong> means the account opened by the
+        Customer on the Application in accordance with the Terms and Conditions.
       </p>
       <p>
-        "Payment Instrument" means a valid instrument of payment such as a bank
-        account.
+        <strong>"INR(D) Transfer Funds"</strong> means all the INR(D) collected
+        from or on behalf of the Customer in respect of all transactions
+        initiated by the Customer, including, but not limited to, Transaction
+        Amount and all fees.
       </p>
       <p>
-        "Registered User ID" means the unique identifier chosen by the Customer
-        at the time of registration on the Application to access the Application
-        and any Service.
+        <strong>"Payment Account"</strong> means the bank account details of the
+        Customer provided to Moneyfirst at the time of registration for the
+        Service, to be used to transfer the Transaction Amount to the
+        Beneficiary and to pay the applicable service charges for the use of
+        Service.
       </p>
       <p>
-        "Registered User Password" means the password that is chosen by the
-        Customer/User at the time of registration on the Application.
-      </p>
-      <p>"Sender" means someone who uses the Service to send money.</p>
-      <p>
-        "Service Provider" means a local bank, money exchange house, financial
-        institution or other third-party service provider with whom Moneyfirst
-        has relationship with for providing the Service.
+        <strong>"Payment Instrument"</strong> means a valid instrument of
+        payment such as a bank account.
       </p>
       <p>
-        "Supervisory Authority" means Consumer Financial Protection Bureau,
-        pursuant to the enactment of Dodd-Frank Wall Street Reform and Consumer
-        Protection Act and any other applicable regulating authority.
+        <strong>"Registered User ID"</strong> means the unique identifier chosen
+        by the Customer at the time of registration on the Application to access
+        the Application and any Service.
       </p>
       <p>
-        "Transaction" means a specific instruction made by the Customer/User to
-        send money using the Service to a Beneficiary/Receiver.
+        <strong>"Registered User Password"</strong> means the password that is
+        chosen by the Customer/User at the time of registration on the
+        Application.
       </p>
       <p>
-        "Transaction Amount" means the amount of money that the Customer/User
-        wishes to send to the Beneficiary/Receiver, excluding any applicable
-        fees.
+        <strong>"Sender"</strong> means someone who uses the Service to send
+        money.
       </p>
       <p>
-        "Visitor" means any person, who accesses or visits the Application,
-        whether or not such person has a Registered User ID and includes any
-        Customer/User.
+        <strong>"Supervisory Authority"</strong> means Consumer Financial
+        Protection Bureau, pursuant to the enactment of Dodd-Frank Wall Street
+        Reform and Consumer Protection Act and any other applicable regulating
+        authority.
       </p>
       <p>
-        "Application" means www.moneyfirst.com.au domains, subdomains or
-        subdirectories including access by computer mobile or mobile
-        application.
+        <strong>"Transaction"</strong> means a specific instruction made by the
+        Customer/User to send money using the Service to a Beneficiary/Receiver.
       </p>
-      <h2>3. Registration</h2>
+      <p>
+        <strong>"Transaction Amount"</strong> means the amount of money that the
+        Customer/User wishes to send to the Beneficiary/Receiver, excluding any
+        applicable fees.
+      </p>
+      <p>
+        <strong>"Visitor"</strong> means any person, who accesses or visits the
+        Application, whether or not such person has a Registered User ID and
+        includes any Customer/User.
+      </p>
+      <p>
+        <strong>"Application"</strong> means www.moneyfirst.com.au domains,
+        subdomains or subdirectories including access by computer mobile or
+        mobile application.
+      </p>
+      <h5 style={{ fontWeight: "bold" }}>3. Registration</h5>
       <h5>3.1</h5>
       <p>
         You will not access, use or attempt to use the Service as a Sender
@@ -191,12 +197,15 @@ const TermAndCondition = () => {
       <p>
         Without prejudice to the foregoing Para. 3.8, you will log out from your
         account at the end of each session and immediately notify our customer
-        service by Email at info@moneyfirst.com.au or by phone at
-        0061-474-944-241 of any suspected loss, theft or unauthorized usage of
-        your Registered User ID and any other breach of security, any receipt of
-        confirmation of a Transaction, fund or other activity which you did not
-        authorize, or any inaccurate information in your Customer Account
-        balances or transaction history.
+        service by email at{" "}
+        <strong>
+          <a href="mailto:info@moneyfirst.com.au">info@moneyfirst.com.au</a>
+        </strong>{" "}
+        or by phone at (7)3184-6424 of any suspected loss, theft, or
+        unauthorized usage of your Registered User ID and any other breach of
+        security, and receipt of confirmation of a Transaction, fund or other
+        activity which you did not authorize, or any inaccurate information in
+        your Customer Account balances or transaction history.
       </p>
       <h5>3.10</h5>
       <p>
@@ -207,8 +216,22 @@ const TermAndCondition = () => {
         addition to, or in place of, the use of any password(s).
       </p>
 
-      <h2>4. Payment account verification</h2>
+      <h5 style={{ fontWeight: "bold" }}>4. Payment account verification</h5>
       <h5>4.1</h5>
+      <p>
+        <strong>
+          Disclaimer: Moneyfirst Services and Moneyfirst Token (INR D) are not
+          available in the United States or any other prohibited jurisdictions.
+          You acknowledge that you are solely and fully responsible for
+          compliance with Indian laws, and hereby represent and warrant that
+          your use of Moneyfirst and any transaction you carry out on Moneyfirst
+          complies with Indian Laws. Moneyfirst does not solicit any payment or
+          transaction to Indian users and you acknowledge that you are
+          approaching Moneyfirst of your own will and at your own risk. You
+          hereby indemnify Moneyfirst to the full extent of any loss or damage
+          it may suffer due to any non-compliance by you with applicable laws.
+        </strong>
+      </p>
       <p>
         Moneyfirst may engage third-party suppliers ("Supplier") to verify your
         identity and your authority and access to Payment Account. By using the
@@ -238,7 +261,7 @@ const TermAndCondition = () => {
         you and Moneyfirst and its Service Providers only in connection with the
         Service.
       </p>
-      <h2>5. Use of the application</h2>
+      <h5 style={{ fontWeight: "bold" }}>5. Use of the application</h5>
       <h5>5.1</h5>
       <p>
         Moneyfirst reserves the right to change the Application or any feature
@@ -258,7 +281,7 @@ const TermAndCondition = () => {
       <h5>5.3</h5>
       <p>
         Moneyfirst does not warrant that your access to the Application and use
-        of the Service will be uninterrupted, continuous or error free or free
+        of the Service will be uninterrupted, continuous or error-free, or free
         from infection by viruses or anything else with contaminating or
         destructive properties. Moneyfirst shall not be liable to you for any
         loss, expense, damage, delay, costs, or compensation (whether direct or
@@ -267,28 +290,26 @@ const TermAndCondition = () => {
         inability to access the Application.
       </p>
 
-      <h2>6. Conduct of customers/users</h2>
+      <h5 style={{ fontWeight: "bold" }}>6. Conduct of customers/users</h5>
       <h5>6.1</h5>
       <p>
-        For each Transaction that you submit, you will be charged a service
-        fee/charge as applicable in addition to the Transaction Amount. Payment
-        becomes due at the time that you submit your Transaction. You authorize
-        Moneyfirst to charge your Payment Account for the Money Transfer Funds.
-        You understand and acknowledge that Moneyfirst has no obligation to
-        process or complete a Transaction if Moneyfirst is unable for any reason
-        to obtain authorization or settlement of the funds from charging your
-        Payment Account.
+        Payment becomes due at the time that you submit your Transaction. You
+        authorize Moneyfirst to charge your Payment Account for the Money
+        Transfer Funds. You understand and acknowledge that Moneyfirst has no
+        obligation to process or complete a Transaction if Moneyfirst is unable
+        for any reason to obtain authorization or settlement of the funds from
+        charging your Payment Account.
       </p>
       <h5>6.2</h5>
       <p>
-        In the event the charge to your Payment Account is subsequently
-        returned, charged-back or cancelled for any reason, and Moneyfirst has
+        In the event, that the charge to your Payment Account is subsequently
+        returned, charged back, or canceled for any reason, and Moneyfirst has
         already processed your Transaction, you will be responsible to
         Moneyfirst for the amount. In such an event, we reserve the right to
-        mark lien on the Beneficiary/Receiver account where such funds were
+        mark the lien on the Beneficiary/Receiver account where such funds were
         credited and continue the lien until such time the funds are returned.
         You agree to pay such amount, plus any applicable service fee or
-        in-sufficient funds fee applicable to the return, to Moneyfirst
+        insufficient funds fee applicable to the return, to Moneyfirst
         immediately upon demand.
       </p>
       <h5>6.3</h5>
@@ -299,7 +320,7 @@ const TermAndCondition = () => {
       <h5>6.4</h5>
       <p>
         We do not accept any liability for damages resulting from non-payment or
-        delay in payment of a money transfer to a Beneficiary/Receiver or
+        delay in payment of an INR(D) transfer to a Beneficiary/Receiver or
         failure to perform a transaction under the Service.
       </p>
       <h5>6.5</h5>
@@ -311,7 +332,7 @@ const TermAndCondition = () => {
         circumstances because the rate at which we or our Service Providers
         obtain foreign currency may not be the same as the exchange rate
         provided to you. If a Receiver's account is denominated in another
-        currency, there may be delays, additional charges or different exchange
+        currency, there may be delays, additional charges, or different exchange
         rates. Please ensure the currency requested for the transaction is the
         same as the currency of the account where the funds are to be delivered.
         If additional charges are incurred due to incorrect information provided
@@ -321,25 +342,26 @@ const TermAndCondition = () => {
       <h5>6.6</h5>
       <p>
         It is your responsibility to ensure all transaction details are accurate
-        prior to submission of the Transaction. You will be given the
-        opportunity to review the transactions details before submission of the
-        Transaction for processing. Once a Transaction has been submitted for
-        processing it is not normally possible to change the details.
+        before submission of the Transaction. You will be allowed to review the
+        transaction details before submission of the Transaction for processing.
+        Once a Transaction has been submitted for processing it is not normally
+        possible to change the details.
       </p>
       <h5>6.7</h5>
       <p>
         We are not responsible for any fees or charges you may incur when
-        utilizing a particular Payment Instrument to fund a Transaction. These
-        may include but are not limited to unauthorized overdraft fees imposed
-        by banks if there are insufficient funds in your bank account or "cash
-        advance" fees, credit/debit card charges and additional interest which
-        may be imposed by your bank if they treat the Service as a credit
-        transaction rather than a cash transaction.
+        utilizing a particular Payment Instrument to send INR(D) Worldwide or
+        receiving funds in your Moneyfirst wallet. These may include but are not
+        limited to unauthorized overdraft fees imposed by banks if there are
+        insufficient funds in your bank account or "cash advance" fees,
+        credit/debit card charges, and additional interest which may be imposed
+        by your bank if they treat the Service as a credit transaction rather
+        than a cash transaction.
       </p>
       <h5>6.8</h5>
       <p>
-        You will use the Service only to send money to people that you know
-        personally and not to pay for any goods or services. If, in breach of
+        You will use the Service only to send funds to people that you know
+        personally and not to pay for any goods or services. If in breach of
         this clause, you choose to pay third parties for goods and services
         using the Service, you acknowledge that we have no control over, and are
         not responsible for, the quality, safety, legality, or delivery of such
@@ -353,28 +375,31 @@ const TermAndCondition = () => {
         Both Customer and Receiver will act on behalf of their respective
         selves. You may not submit or receive a Transaction on behalf of a third
         party. If you intend to submit or receive a Transaction on behalf of a
-        company, business or a third party individual, you must first inform us
+        company, business, or a third party individual, you must first inform us
         of your desire to do so and provide us with such additional information
-        as we deem fit about the company, business or third party individual, in
-        order that we may decide whether to permit the transaction.
+        as deemed fit about the company, business or third party individual, so
+        that we may decide whether to permit the transaction or not.
       </p>
       <h5>6.10</h5>
       <p>
         In using the Service you will comply with these Terms and Conditions as
-        well as any applicable laws, rules or regulations. You will not use the
+        well as any applicable laws, rules, or regulations. You will not use the
         Service to send money:
       </p>
-      <h5>6.10.1</h5>
-      <p>to a recipient who has violated the Terms and Conditions, or</p>
-      <h5>6.10.2</h5>
+
       <p>
-        in connection with illegal activity including without limitation
-        money-laundering, fraud and the funding of terrorist organizations.
+        <strong>● 6.10.1</strong> to a recipient who has violated the Terms and
+        Conditions, or
+      </p>
+      <p>
+        <strong>● 6.10.2</strong> in connection with illegal activity including
+        without limitation money laundering, fraud, and the funding of terrorist
+        organizations.
       </p>
       <h5>6.11</h5>
       <p>
         If you use the Service in connection with illegal activity or any
-        activity which seem suspicious, we will report your Transaction(s) to
+        activity which seems suspicious, we will report your Transaction(s) to
         the appropriate legal authorities.
       </p>
       <h5>6.12</h5>
@@ -394,13 +419,13 @@ const TermAndCondition = () => {
         the Transaction Amount is credited/paid out to the Beneficiary/Receiver,
         Moneyfirst shall have the right to recover the Transaction Amount along
         with all associated charges from the Customer. By initiating a
-        Transaction on the Application, you are aware and agree that the funds
-        may be credited to the account of the Beneficiary prior to receipt of
+        Transaction on the Application, you are aware and agree that the INR(D)
+        may be credited to the account of the Beneficiary before receipt of
         funds from you by Moneyfirst. In such an event, we reserve the right to
-        mark lien on the Beneficiary/Receiver account where such funds were
+        mark the lien on the Beneficiary/Receiver account where such funds were
         credited and continue the lien until such time the funds are returned.
         You further agree that a mere demand from Moneyfirst in such
-        circumstances shall be good reason for you to pay the shortfall/loss
+        circumstances shall be a good reason for you to pay the shortfall/loss
         without any demur or delay.
       </p>
       <h5>6.14</h5>
@@ -409,20 +434,20 @@ const TermAndCondition = () => {
         it has received a confirmation that funds have been received in its bank
         account. If it comes to the notice of Moneyfirst that you had
         insufficient funds in the Payment Account from which you requested the
-        Transaction or you have provided wrong details of designated bank
-        account, Monet or the Service Provider may cancel the Transaction and
-        you shall bear full liability and responsibility for the same. In the
-        event the insufficiency of funds is learned by Moneyfirst after the
-        Recipient has received the Transaction Amount, you will be liable to
-        reimburse Moneyfirst (as applicable) of the amount remitted and any
-        other charges and costs incurred by Moneyfirst and/or the Service
-        Provider. You agree to pay such amount immediately upon Moneyfirst
-        demand. Moneyfirst shall also be entitled to inform any credit bureau or
-        any other person or entity including the law enforcement agencies if you
-        fail to pay/reimburse such amount or any part thereof.
+        Transaction or you have provided wrong details of the designated bank
+        account, the Service Provider may cancel the Transaction and you shall
+        bear full liability and responsibility for the same. In the event the
+        insufficiency of funds is learned by Moneyfirst after the Recipient has
+        received the Transaction Amount, you will be liable to reimburse
+        Moneyfirst (as applicable) of the amount remitted and any other charges
+        and costs incurred by Moneyfirst and/or the Service Provider. You agree
+        to pay such an amount immediately upon Moneyfirst demand. Moneyfirst
+        shall also be entitled to inform any credit bureau or any other person
+        or entity including the law enforcement agencies if you fail to
+        pay/reimburse such amount or any part thereof.
       </p>
 
-      <h2>7. Other terms</h2>
+      <h5 style={{ fontWeight: "bold" }}>7. Other terms</h5>
       <h5>7.1</h5>
       <p>
         Subject to these Terms and Conditions, we agree to provide the Service
@@ -441,44 +466,70 @@ const TermAndCondition = () => {
       <h5>7.3</h5>
       <p>
         We reserve the right to modify or discontinue the Service or any part of
-        the Service without notice, at any time and from time to time. We may,
+        the Service without notice, at any time, and from time to time. We may,
         in our absolute discretion or subject to such applicable laws, refuse
         any Transaction or limit the amount transferred, either on a per
-        transaction basis or on an aggregate basis, and either on individual
-        accounts or on related accounts.
+        transaction basis or aggregate basis, and either on individual accounts
+        or accounts.
       </p>
       <h5>7.4</h5>
       <p>
         We will attempt to process Transactions promptly, but any transaction
-        may be delayed or cancelled for a number of reasons including but not
-        limited to: our efforts to verify your identity; to validate your
-        transaction instructions; to contact you; or otherwise to comply with
-        applicable law; or due to variations in business hours and currency
-        availability.
+        may be delayed or canceled including but not limited to: our efforts to
+        verify your identity; validate your transaction instructions; contact
+        you, or otherwise comply with applicable law; or due to variations in
+        business hours and currency availability.
       </p>
       <h5>7.5</h5>
       <p>
-        We will attempt to provide Customer and Receiver with up to date
+        We will attempt to provide the Customer and Receiver with up-to-date
         information regarding the location and opening hours of our Service
-        Providers by means of information on the Application. However, you agree
+        Providers using the information on the Application. However, you agree
         that we shall not be held responsible for any inaccuracies that may
-        appear in that information or any consequential loss which may result
+        appear in that information or any consequential loss that may result
         from incorrect or incomplete information.
       </p>
       <h5>7.6</h5>
       <p>
-        We conduct our services in a transparent manner and do not withhold any
-        information from Customer pertaining to Customer's Transaction. The
-        requisite information pertaining to Customer's Transaction is disclosed
-        to Customer in the manner and form required by the Supervisory
-        Authority.
+        We transparently conduct our services and do not withhold any
+        information from Customers about Customer Transactions. The requisite
+        information about the Customer's Transaction is disclosed to the
+        Customer in the manner and form required by the Supervisory Authority.
       </p>
       <h5>7.7</h5>
       <p>
         Reference to a particular gender shall be deemed to include a reference
-        to the other genders and singular shall include the plural and vice
+        to the other genders and the singular shall include the plural and vice
         versa and the word "includes" should be construed as if the words
         "without limitation" appear thereafter.
+      </p>
+      <h5 style={{ fontWeight: "bold" }}>8. Miscellaneous</h5>
+      <h5>8.1.Entire Agreement:</h5>
+      <p>
+        The User Agreement constitutes the entire agreement between you and
+        Moneyfirst and governs your use of the Service, superseding any prior
+        agreements between you and Moneyfirst.
+      </p>
+      <h5>8.2.No Waiver</h5>
+      <p>
+        The failure of Moneyfirst to exercise or enforce any right or provision
+        of the User Agreement shall not constitute a waiver of such right or
+        provision.
+      </p>
+      <h5>8.3.Modification:</h5>
+      <p>
+        We may modify this User Agreement from time to time without notice to
+        you, except as may be required by law. You can review the most current
+        version of the User Agreement at any time by reviewing this website.
+      </p>
+      <p>
+        <strong>
+          YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THESE TERMS AND
+          CONDITIONS AND AGREE TO BE BOUND THEREBY. YOU ACKNOWLEDGE AND AGREE
+          THAT EACH TIME YOU SUBMIT INFORMATION OR CONDUCT ANY TRANSACTION IN
+          CONNECTION WITH THE SERVICE, EACH SUCH TRANSACTION CONSTITUTES YOUR
+          AGREEMENT AND INTENT TO BE BOUND BY THESE TERMS AND CONDITIONS
+        </strong>
       </p>
     </div>
   );
