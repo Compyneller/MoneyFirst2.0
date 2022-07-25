@@ -113,7 +113,7 @@ const TermAndCondition = () => {
       </p>
       <p>
         <strong>"Sender"</strong> means someone who uses the Service to send
-        money.
+        INR(D).
       </p>
       <p>
         <strong>"Supervisory Authority"</strong> means Consumer Financial

@@ -232,7 +232,9 @@ const PrivacyPolicy = () => {
         or suggestions about this Privacy Statement, you can contact Moneyfirst
         at:{" "}
         <strong>
-          <a href="mailto:info@Moneyfirst.com.au">info@Moneyfirst.com.au</a>
+          <a href="mailto:support@moneyfirst.com.au">
+            support@moneyfirst.com.au
+          </a>
         </strong>
       </p>
     </div>
