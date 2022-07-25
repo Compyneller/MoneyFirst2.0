@@ -201,7 +201,9 @@ const TermAndCondition = () => {
         account at the end of each session and immediately notify our customer
         service by email at{" "}
         <strong>
-          <a href="mailto:info@moneyfirst.com.au">info@moneyfirst.com.au</a>
+          <a href="mailto:support@moneyfirst.com.au">
+            support@moneyfirst.com.au
+          </a>
         </strong>{" "}
         or by phone at (7)3184-6424 of any suspected loss, theft, or
         unauthorized usage of your Registered User ID and any other breach of
