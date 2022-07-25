@@ -138,9 +138,11 @@ const TermAndCondition = () => {
       </p>
       <p>
         <strong>"Application"</strong> means{" "}
-        <a href="www.moneyfirst.com.au">www.moneyfirst.com.au</a> domains,
-        subdomains, or subdirectories including access by computer mobile or
-        mobile application.
+        <b>
+          <a href="www.moneyfirst.com.au">www.moneyfirst.com.au</a>
+        </b>{" "}
+        domains, subdomains, or subdirectories including access by computer
+        mobile or mobile application.
       </p>
       <h5 style={{ fontWeight: "bold" }}>3. Registration</h5>
       <h5>3.1</h5>
